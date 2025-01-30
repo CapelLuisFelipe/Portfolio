@@ -1,0 +1,141 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;600&display=swap");
+
+/* Reset básico */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding: 10px 0;
+}
+
+.cabecalho__menu {
+  display: flex;
+  gap: 20px;
+}
+
+.cabecalho__menu__link {
+  text-decoration: none;
+  color: #0af;
+  padding: 10px 20px;
+  border: 2px solid #0af;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+  background-color: #0af;
+  color: #000;
+}
+
+/* Apresentação */
+main {
+  flex: 1;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.certifications {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.certifications h1 {
+  font-size: 2.5rem;
+  color: #00d9ff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+/* Container de projetos */
+.certifications__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.certification {
+  background: linear-gradient(145deg, #222, #333);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4), -5px -5px 15px rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  color: #e0e0e0;
+}
+
+.certification img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.certification p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.certification a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.certification a:hover {
+  background: #0056b3;
+}
+
+/* Rodapé */
+footer {
+  width: 100%;
+  background-color: #1e1e1e;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer a {
+  color: #0af;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+}
+
+footer a i {
+  font-size: 1.2rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
