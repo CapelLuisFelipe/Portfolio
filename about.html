@@ -19,13 +19,13 @@
   </header>
 
   <main class="sobre">
-    <h1>Sobre Mim</h1>
+    <h1>🙋🏻‍♂️ Sobre Mim 👨🏻‍💻</h1>
     <section class="sobre__container">
         <div class="sobre__imagem">
             <img src="./assets/caps-formado.jpg" alt="Luis Felipe Capel">
         </div>
         <div class="sobre__texto">
-            <p>Meu nome é <strong>Luis Felipe Capel de Souza</strong>, tenho 22 anos e moro em Franca, SP. Desde muito cedo, sempre tive uma enorme curiosidade e facilidade com tecnologias, o que me motivou a seguir carreira na área de desenvolvimento e computação.</p>
+            <p>Meu nome é <strong class="destaque">Luis Felipe Capel de Souza</strong>, tenho 22 anos e moro em Franca, SP. Desde muito cedo, sempre tive uma enorme curiosidade e facilidade com tecnologias, o que me motivou a seguir carreira na área de desenvolvimento e computação.</p>
             
             <p>Sou <strong class="destaque">Bacharel em Engenharia de Software</strong>, com sólida formação técnica pelo Centro Universitário Municipal de Franca <strong class="destaque">(UNI-FACEF)</strong>. Atualmente, estou me especializando em computação em nuvem, com foco nas certificações <strong class="destaque">AWS Cloud Practitioner</strong> e <strong class="destaque">AWS Certified Solutions Architect Associate</strong>. Busco ampliar meu conhecimento em soluções cloud para oferecer projetos escaláveis, seguros e eficientes.</p>
             
@@ -51,5 +51,11 @@
       </a>
     </p>
   </footer>
+  <script>
+    const cssFile = document.createElement("link");
+    cssFile.rel = "stylesheet";
+    cssFile.href = "https://portfolio-capel.s3.us-east-1.amazonaws.com/styles/style-about.css?v=" + new Date().getTime();
+    document.head.appendChild(cssFile);
+  </script>
 </body>
 </html>
